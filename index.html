@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+        </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar ml-auto navbar-expand-lg navbar-light">
+        <div class="container">
+        <a class="navbar-brand" href="#"><b>rakhaynd</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Profile<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bio">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skill</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sch">School</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Project</a>
+              </li>
+          </ul>
+        </div>
+    </div>
+      </nav>
+
+      <!-- jumbotrone masseh -->
+
+
+      <div class="jumbotron">
+        <div class="container">
+            <div class="profil">
+        <img src="foto.jpg" alt="">
+        </div>
+        <h3 style="margin-top: 5px;"><b>Rakha Yonanda</b></h3>
+        <h4>Hi! i'm <span class="typing"></span></h4>
+        <div class="tombol">
+        <a class="btn btn-md" href="https://github.com/rakhaaynd/" role="button">github</a>
+        <a class="btn btn-md" style="background-color: white; color:black; border: solid 1px black;" href="https://wa.me/6287793458089" role="button">whatsapp</a>
+        </div>
+    </div>
+      </div>
+      <div class="tentang" id="bio">
+        <div class="container">
+        <h3 style="text-align: center; font-family: 'Montserrat Alternates', sans-serif; font-weight: bold;">
+            About Me
+        </h3>
+        <p style="font-size: 15px; font-family: 'Montserrat Alternates', sans-serif;">
+            <b>hi,</b> you can call me rakha yonanda, i am a student, i was born in surabaya in 2006 and i am interested in programming world, such as web developer, data science, software engineer <span id="dots">...</span><span id="more">You can visit my blog at <a href="http://santrixploit.blogspot.com">http://santrixploit.blogspot.com</a> there are many articles that you might be interested to reading</span>
+            <button onclick="myFunction()" id="myBtn" class="btn" type="submit">read more</button>
+        </p>
+    </div>
+      </div>
+      <div class="school" id="sch">
+        <h3><b>School</b></h3>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="mi.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>MI NURUL HUDA TMY</h5>
+                <p>the time when don't know love</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="mts.jpg" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>MTSM 3 JOMBANG</h5>
+                <p>start thinking about the future</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="man.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>MAN 1 BOJONEGORO</h5>
+                <p>start the future</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>designed by <a href="https://instagram.com/@rakhaa.ynd">rakha yonanda</a></p>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        var typed = new Typed(".typing", {
+        strings: ["Photographer", "Developer", "Blogger", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+    </script>
+  </body>
+</html>
