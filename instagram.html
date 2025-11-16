@@ -187,7 +187,7 @@ function process() {
     function setRandomImage() {
     const totalImages = 20; 
     const randomNumber = Math.floor(Math.random() * totalImages) + 1;
-    const imgPath = `${randomNumber}.jpg`;
+    const imgPath = `/${randomNumber}.jpg`;
 
     document.getElementById("randomImage").src = imgPath;
 }
